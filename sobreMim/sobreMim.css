@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --cor-primaria: #222831;
+    --cor-secundaria: #EEEEEE;
+    --cor-terciaria: #FFD369;
+    --cor-hover: #FFFFFF;
+
+    --fonte-primaria: 'Ubuntu', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../public/sobreMim/Component 2.svg");
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    /* instalando a fonte do Google no body todo */
+    font-family: var(--fonte-primaria);
+}
+
+.navigation_menu {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    height: 135px;
+}
+
+.navigation_menu-items {
+    display: flex;
+    margin-inline: 29%;
+    gap: 40px;
+
+    text-decoration: none;
+    width: 50vh;
+}
+
+.navigation_menu-items-item {
+    color: var(--cor-terciaria);
+    transition: 200ms;
+    font-size: 22px;
+}
+
+.navigation_menu-items-item:hover {
+    scale: 1.2;
+    font-weight: bold;
+}
+
+
+h1 {
+    color: var(--cor-terciaria);
+    margin-inline: auto;
+}
+
+main {
+    width: 90vh;
+    max-width: 900px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+main a {
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 16px;
+
+    width: 380px;
+    height: 90px;
+    padding: 29px;
+    margin-left: 55%;
+    margin-top: 35px;
+    text-align: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.sobremim-main-imageandtext {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.text-right {
+    margin-left: 51px;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 100px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 30px;
+}
+
+footer p {
+    margin-inline: auto;
+    margin-top: 10px;
+}
+
+b {
+    font-size: 28px;
+}
+
+.flex-left {
+    margin-bottom: 40px;
+    filter: grayscale(100%);
+}
