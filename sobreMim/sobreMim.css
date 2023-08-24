@@ -180,4 +180,9 @@ b {
         font-size: 1.5rem;
         margin-block: 2vh;
     }
+
+    footer p {
+        scale: 60%;
+        margin-top: 0;
+    }
 }
