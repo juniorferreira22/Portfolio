@@ -137,8 +137,8 @@ b {
 
     .navigation_menu {
         margin-inline: auto;
-        height: 3rem;
-        margin-block: 1rem;
+        height: 8vh;
+        margin-block: 3vh;
         background-color: var(--cor-terciaria);
         margin-top: 0;
     }
