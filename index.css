@@ -301,16 +301,23 @@ footer p {
         margin-inline: auto;
         height: 3rem;
         margin-block: 1rem;
+        background-color: var(--cor-terciaria);
+        margin-top: 0;
     }
 
     .navigation_menu-items {
         gap: 1rem;
         margin-inline: auto;
+        width: 60vw;
+        display: flex;
+        align-items: center;
     }
 
     .navigation_menu-items-item {
-        width: 7rem;
+        width: 6rem;
         font-size: 1rem;
+        font-weight: 600;
+        color: var(--cor-primaria);
     }
 
     .container {
@@ -323,12 +330,25 @@ footer p {
         width: 80vw;
     }
 
+    .container-leftside-buttons {
+        gap: 0;
+        margin: 0;
+    }
+
     .container-leftside-title {
         margin-top: 0;
         font-size: 1.4rem;
+        margin-bottom: 2vh;
+        margin-right: 0;
     }
 
-    .container-leftside-paragraph,
+    .container-leftside-paragraph {
+        height: 10vh;
+        margin-top: 1vh;
+        font-size: 0.9rem;
+        width: 80vw;
+    }
+
     .webdev-description,
     .webdev-dashboard-languages-title,
     .webdev-dashboard-workedin-title {
@@ -339,25 +359,27 @@ footer p {
     .container-leftside-githubbutton,
     .container-leftside-instagrambutton {
         font-size: 1rem;
-        width: 18rem;
+        width: 38vw;
+        text-align: center;
+        margin-top: 1vh;
     }
 
     .container-rightside {
-        scale: 80%;
         margin-inline: auto;
-        height: 15rem;
+        height: 32vh;
         text-align: center;
     }
 
     .container-rightside-image {
         width: 60vw;
         margin-inline: auto;
+        margin-top: 1vh;
     }
 
 
     .down-arrow {
-        margin-top: 4rem;
-        margin-bottom: 2rem;
+        margin-top: 3vh;
+        margin-bottom: 10vh;
     }
 
     .my-designs-carousel {
@@ -374,23 +396,24 @@ footer p {
     .my-designs-heading {
         margin-top: 0;
         font-size: 1.5rem;
-        margin-bottom: 4rem;
+        margin-bottom: 5vh;
     }
 
     .my-designs-images,
     .my-designs-carousel,
     .my-designs-carousel-img {
-        height: 10rem;
+        height: 30vh;
         margin-top: 0;
     }
 
     .my-designs-description {
-        margin-top: 4rem;
+        margin-top: 5vh;
     }
 
     .my-designs-paragraph {
-        font-size: 1rem;
-        margin-top: 1rem;
+        margin-top: 1vh;
+        font-size: 0.9rem;
+        width: 80vw;
     }
 
     .webdev-dashboard-content {
@@ -426,7 +449,7 @@ footer p {
     }
 
     .webdev-language {
-        width: 10%;
+        width: 3rem;
     }
 
     .projects-resume,
@@ -447,7 +470,19 @@ footer p {
         font-size: 0.8rem;
     }
 
-    .down-arrow, .go-up{
+    .down-arrow,
+    .go-up {
         scale: 80%;
+    }
+
+    .webdev-description {
+        margin-top: 1vh;
+        font-size: 0.9rem;
+        width: 80vw;
+    }
+
+    footer p {
+        scale: 60%;
+        margin-top: 0;
     }
 }
